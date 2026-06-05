@@ -1,0 +1,5 @@
+# Ignore dependencies and build artifacts
+/solebox-lk/node_modules
+/solebox-lk/dist
+/solebox-lk/.vite
+.DS_Store
