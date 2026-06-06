@@ -1,14 +1,5 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "solebox-lk/package.json",
-      "use": "@vercel/static-build"
-    }
-  ],
-  "installCommand": "cd solebox-lk && npm install",
-  "buildCommand": "cd solebox-lk && npm run build",
-  "outputDirectory": "solebox-lk/dist",
   "routes": [
     {
       "handle": "filesystem"
